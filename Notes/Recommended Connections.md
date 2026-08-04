@@ -6,7 +6,6 @@ topics:
   - setup
 organisations: []
 people: []
-projects: []
 created: "2026-08-03"
 updated: "2026-08-03"
 ---
@@ -35,7 +34,7 @@ Use the exact Insider account scope. Preserve timezone, invitation state and sou
 
 ## 5. Granola
 
-Use meeting notes as evidence. Reconcile supported durable changes into the relevant Meeting, Organisation, People or Project record rather than treating an AI summary as automatic truth.
+Use meeting notes as evidence. Reconcile supported durable changes into the relevant Meeting, Organisation or People record rather than treating an AI summary as automatic truth.
 
 ## Default boundary
 

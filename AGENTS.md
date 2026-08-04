@@ -12,16 +12,17 @@ This is a private, lean Insider CSM Work OS. `AGENTS.md` and `CLAUDE.md` must re
 
 ## Canonical ownership
 
-- Organisation records own customer strategy, account context and battle plans.
+- Organisation records own customer strategy, account context, workstreams and battle plans.
 - People records own stakeholder context.
-- Projects own finite customer outcomes.
 - Meetings preserve event evidence and decisions.
+- Notes hold reusable knowledge and evidence that has no more specific owner.
 - The linked Google Sheet owns structured CSM scorecard values and calculations.
 - Official company systems retain their declared commercial and operational facts.
 - `Tasks.md` owns only shared or leadership commitments not already owned elsewhere.
 
 ## Hard rules
 
+- Keep workstreams and battle plans as rows inside their Organisation record. Do not create a Project record type or `Projects/` folder.
 - Do not duplicate Google Sheet metrics in Markdown.
 - Do not copy every CSM task into `Tasks.md`.
 - Do not infer performance from stale, missing or invalid evidence; use `Not assessable`.

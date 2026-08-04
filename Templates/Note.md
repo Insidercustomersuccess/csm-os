@@ -1,8 +1,7 @@
 ---
 type: note
 organisations: []
-people:
-projects: []
+people: []
 topics: []
 created: "{{date:YYYY-MM-DD}}"
 updated: "{{date:YYYY-MM-DD}}"

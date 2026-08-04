@@ -6,162 +6,89 @@ topics:
   - markdown
 organisations: []
 people: []
-projects: []
-created: 2026-08-02
-updated: 2026-08-02
+created: "2026-08-02"
+updated: "2026-08-03"
 ---
 
 # Principles of an Agent-Friendly Obsidian Vault
 
 An agent-friendly vault is first a human-readable vault. Files should be easy to identify, interpret, link and update without hidden conventions.
 
-The contract rests on three principles:
-
-1. **Every file has an obvious purpose.**
-2. **Every relationship has explicit meaning.**
-3. **Every important claim has an identifiable owner and source.**
-
 ## 1. One file, one primary subject
 
-A file should represent one identifiable Organisation, People, Project, Meeting or Note subject. Do not combine several unrelated subjects into one long document merely because they arrived together.
+A file should represent one identifiable Organisation, person, Meeting or Note subject. Meeting records may contain several topics because they are evidence of one event.
 
-Meeting records may contain several topics because they are evidence of one event. Store them in `Meetings/` and move durable current state into the record that owns it.
+This CSM OS deliberately does not use separate Project records. Current workstreams and battle plans remain inside the Organisation that owns the customer strategy.
 
-## 2. Give every file a predictable identity
+## 2. Predictable identity
 
-Use the matching Template and a unique, descriptive filename. People records use `Templates/People.md`, and Meeting records use `Templates/Meeting.md`. The `type` property should come from the controlled starter set:
+Use the matching Template and a unique, descriptive filename. The controlled record types are:
 
 ```yaml
-type: organisation | people | project | meeting | note
+type: organisation | people | meeting | note
 ```
 
-Use `YYYY-MM-DD` for dates. Use the same property name for the same meaning across every file.
-
-For this small starter, a unique filename and controlled `type` are sufficient. Add immutable IDs only when external synchronisation, duplicate names or larger-scale automation creates a proven need.
+Use `YYYY-MM-DD` for dates and the same property name for the same meaning.
 
 ## 3. Put the answer near the top
 
-A reader or agent should understand a file without reading the full history. The first screen should answer:
+The first screen should explain what the record is, why it matters and its current state. Put history and deep evidence below the current position.
 
-- What is this?
-- Why does it matter?
-- What is its current state?
-
-Keep the summary or current context near the top. Put deep detail, evidence and history below it.
-
-## 4. Use consistent headings for each record type
-
-Files created from the same Template should use the same broad structure. Consistency helps people scan and helps agents update the correct section without rewriting unrelated content.
-
-Do not force every Note into an identical shape. Notes are the flexible evidence layer, while Organisations, People, Projects and Meetings need more predictable sections.
-
-## 5. Separate current truth from history
-
-Do not bury the current position inside a chronological journal.
-
-```markdown
-## Current position
-
-The launch remains planned for October and is waiting for security approval.
-
-## Updates
-
-- 2026-08-02: Security review moved to final approval.
-- 2026-07-14: Launch moved from September to October.
-```
-
-Current state belongs near the top. Dated changes and source evidence belong below it.
-
-## 6. Give each fact one canonical owner
+## 4. One canonical owner
 
 | Fact | Canonical owner |
 |---|---|
-| Organisation identity and context | Organisation file |
-| People identity, role and working context | People record in `People/` |
-| Project outcome, status and current position | Project file |
-| Meeting event, attendees, notes and decisions | Meeting record in `Meetings/` |
-| Research or decision evidence not tied to a Meeting | Note file |
-| Structured CSM OKRs, KPIs and advocacy targets | Linked Google Sheet described in `CSM Scorecard.md` |
+| Customer identity, health context and strategy | Organisation record |
+| Customer workstreams and battle plans | Workstream table inside the Organisation record |
+| Stakeholder identity, role and working context | People record |
+| Meeting event, attendees, notes and decisions | Meeting record |
+| Reusable research or decision evidence | Note file |
+| Structured OKRs, KPIs and advocacy targets | Linked Google Sheet described in `CSM Scorecard.md` |
 | Shared or leadership work not owned elsewhere | `Tasks.md` |
 
-Other files should link to the owner rather than copying its current value. A completed task does not automatically prove that a Project outcome was achieved.
+Other files should link to the owner rather than copying its current value.
+
+## 5. Workstreams stay with the customer
+
+Use one compact table in each Organisation:
+
+```markdown
+| Workstream or battle plan | Outcome | Status | Owner | Next milestone and date | Blocker |
+|---|---|---|---|---|---|
+```
+
+Create one row per active initiative. Update that row when the current position changes. Put meeting evidence and deeper research in linked Meetings or Notes.
+
+## 6. Separate current truth from history
+
+Keep the current snapshot, health and workstream table near the top. Record dated material changes below them. Do not bury current state inside a chronological journal.
 
 ## 7. Make relationships meaningful
 
-Prefer named properties such as `organisations`, `people` and `projects` over an unexplained collection of links. Explain important links in a sentence when the reason is not obvious.
+Use named properties such as `organisations` and `people`. Add links only when the target deserves its own maintained record. Do not create empty nodes merely to make the graph denser.
 
-Weak:
+## 8. Preserve evidence and uncertainty
 
-```markdown
-Related: Client and Launch Project
-```
+Distinguish source evidence, interpretation, current accepted state and human-approved decisions. Do not silently merge conflicting claims. Missing evidence means `Not assessable`, not automatically Red.
 
-Stronger:
+## 9. Controlled vocabulary and plain language
 
-```markdown
-The launch decision was agreed with the client and applies to the Launch Project.
-```
+Use the status values defined by the matching Template or approved operating source. Avoid near-duplicate labels and unexplained shorthand.
 
-Do not impose a minimum number of links. Meaningful links are better than a dense but ambiguous graph.
+## 10. Narrow and verifiable agent writes
 
-## 8. Use exact links and avoid imaginary nodes
+Before changing the vault, an agent should:
 
-Every internal link should resolve to one intended file. Use a link only when the target deserves its own maintained record.
-
-If `industry: retail` is merely a classification, keep it as a controlled value. Do not create a nearly empty “Retail” note just to make the property look like a graph.
-
-## 9. Preserve evidence and uncertainty
-
-Distinguish between:
-
-- source evidence;
-- interpretation;
-- current accepted state;
-- a human-approved decision.
-
-Do not silently merge conflicting claims. State what is uncertain, preserve the competing evidence and ask for clarification when the current owner cannot be updated safely.
-
-## 10. Use controlled vocabulary and plain language
-
-Use the status values defined by the matching Template. Do not create near-duplicates such as `in progress`, `in-progress`, `ongoing` and `underway` unless they deliberately mean different things.
-
-Prefer complete, plain-language statements over shorthand, unexplained acronyms, emoji-only statuses or meaning encoded solely through colour.
-
-## 11. Keep files bounded and scannable
-
-Use:
-
-- one-sentence summaries;
-- short sections;
-- bullets for discrete facts;
-- tables only for genuinely tabular information;
-- links to deep detail rather than copying it everywhere.
-
-Length alone is not the problem. Mixed purpose and unclear ownership are.
-
-## 12. Make agent writes narrow and verifiable
-
-Before an agent changes the vault, it should:
-
-1. Identify the exact target file and its canonical responsibility.
-2. Read the matching Template and relevant evidence.
-3. Check for an existing matching record.
-4. Preserve unrelated content and uncertainty.
-5. Apply the smallest sufficient change.
-6. Read the changed file back and verify frontmatter and links.
-7. Keep external sends and system writes behind separate explicit approval.
+1. identify the exact canonical owner;
+2. read the matching Template and evidence;
+3. check for an existing record;
+4. preserve unrelated content and uncertainty;
+5. apply the smallest sufficient change;
+6. read the changed file back and verify frontmatter and links;
+7. confirm before external sends or system writes.
 
 Never store passwords, tokens, API keys or secret-bearing links in vault notes.
 
-## Minimum mechanical checks
+## Minimum checks
 
-A growing vault should eventually be able to detect:
-
-- malformed frontmatter or dates;
-- invalid record types or statuses;
-- broken or ambiguous links;
-- relationship fields pointing to the wrong kind of record;
-- duplicated canonical records;
-- current-state sections missing from operational records.
-
-Do not add a validator before the starter needs one. The immediate goal is a small, predictable structure that remains easy to maintain manually.
+A growing vault should eventually detect malformed frontmatter, invalid record types or statuses, broken links, duplicated canonical records and missing current-state sections. Add stronger machinery only after a repeated failure proves it necessary.

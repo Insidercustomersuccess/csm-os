@@ -3,7 +3,6 @@ type: people
 status: active
 role:
 organisations: []
-projects: []
 updated: "{{date:YYYY-MM-DD}}"
 ---
 
@@ -19,4 +18,4 @@ updated: "{{date:YYYY-MM-DD}}"
 
 Keep supported sentiment, commitments and concerns here. Preserve uncertainty rather than guessing.
 
-## Related work and evidence
+## Related evidence

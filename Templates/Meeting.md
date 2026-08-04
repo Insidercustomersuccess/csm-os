@@ -3,7 +3,6 @@ type: meeting
 date: "{{date:YYYY-MM-DD}}"
 organisations: []
 people: []
-projects: []
 created: "{{date:YYYY-MM-DD}}"
 updated: "{{date:YYYY-MM-DD}}"
 ---
@@ -27,7 +26,7 @@ updated: "{{date:YYYY-MM-DD}}"
 
 ## Durable account changes
 
-Identify supported changes that should be reconciled into an Organisation, People record or Project. Preserve uncertainty.
+Identify supported changes that should be reconciled into an Organisation or People record. Preserve uncertainty.
 
 ## Follow-up
 

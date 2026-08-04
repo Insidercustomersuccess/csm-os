@@ -2,7 +2,7 @@
 
 This is the single lightweight list for shared or leadership commitments that are not already owned by CRM, a customer tracker or another approved system.
 
-Link the relevant Organisation, People record, Project or Meeting when it adds useful context. Do not copy every CSM action into this file.
+Link the relevant Organisation, People record or Meeting when it adds useful context. Do not copy every CSM action into this file.
 
 ## Now
 

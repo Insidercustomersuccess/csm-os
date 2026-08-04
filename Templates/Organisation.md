@@ -8,7 +8,6 @@ health:
 renewal_date:
 priority:
 people: []
-projects: []
 last_reviewed:
 updated: "{{date:YYYY-MM-DD}}"
 ---
@@ -32,23 +31,18 @@ What is the relationship, current position and why does it matter?
 | Customer objective | Measure or evidence | Baseline | Target | Current | Review date |
 |---|---|---:|---:|---:|---|
 
-## Battle plan
+## Workstreams and battle plans
 
-- **Objective:**
-- **Current priority:**
-- **Risk or blocker:**
-- **Stakeholder move:**
-- **Product or value move:**
-- **Commercial move:**
-- **Next move, owner and date:**
+| Workstream or battle plan | Outcome | Status | Owner | Next milestone and date | Blocker |
+|---|---|---|---|---|---|
+
+Keep each active customer initiative as one row. Put deeper evidence in Meetings or Notes and link it from the row when useful.
 
 ## Change since last review
 
 Add only dated material changes.
 
 ## Stakeholders
-
-## Projects
 
 ## Evidence
 
