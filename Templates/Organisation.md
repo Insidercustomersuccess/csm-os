@@ -46,4 +46,4 @@ Add only dated material changes.
 
 ## Evidence
 
-Link Meetings, Notes and authoritative external sources. Do not copy the Google Sheet scorecard into this record.
+Link Meetings, Notes and authoritative external sources.

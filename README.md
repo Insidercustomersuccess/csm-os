@@ -2,11 +2,10 @@
 
 This is a lean, private Obsidian workspace for Customer Success account context, battle plans, stakeholder relationships, meeting evidence and leadership preparation.
 
-The system deliberately separates three jobs:
+The system deliberately separates two jobs:
 
 1. **Obsidian** holds customer strategy, workstreams, battle plans, stakeholder context and meeting evidence.
-2. **Google Sheets** holds the structured CSM scorecard, calculations, filters, targets and team updates.
-3. **Official company systems** retain their authoritative commercial, contractual and operational data.
+2. **Official company systems** retain their authoritative commercial, contractual and operational data.
 
 Do not copy a value into several places. Link to the canonical source instead.
 
@@ -19,7 +18,6 @@ Do not copy a value into several places. Link to the canonical source instead.
 | `Meetings/` | Meeting evidence, decisions and commitments |
 | `Notes/` | Playbooks, product knowledge, research, decisions and reusable context |
 | `Tasks.md` | Shared or leadership commitments not already owned by another system |
-| `CSM Scorecard.md` | Landing page and operating contract for the canonical Google Sheet scorecard |
 | `System/connections.md` | Live connection and source registry, without secrets |
 | `Templates/` | The approved starting shape for each record type |
 
@@ -33,7 +31,6 @@ There is deliberately no `Projects/` folder. Current customer workstreams and ba
 | Stakeholder role and relationship context | People record |
 | What happened in a meeting | Meeting record |
 | Reusable knowledge or evidence | Note file |
-| Structured OKRs, KPIs and customer-marketing targets | Google Sheet linked from `CSM Scorecard.md` |
 | Commercial or contractual facts | The approved official company system |
 | Shared leadership commitment not owned elsewhere | `Tasks.md` |
 | Connection route and permission boundary | `System/connections.md` |
@@ -61,23 +58,6 @@ Review accounts tier-first. For each selected account confirm:
 
 Deep-dive exceptions rather than walking every green account.
 
-### Weekly scorecard update
-
-Use the Google Sheet for structured values and calculations. Check source freshness before judging performance. Missing evidence means `Not assessable`, not automatically Red.
-
-## Google Sheet boundary
-
-The Google Sheet should contain these tabs:
-
-- `Dashboard`
-- `Accounts`
-- `OKRs`
-- `KPIs`
-- `Advocacy & Marketing`
-- `Definitions & Sources`
-
-Do not duplicate the Sheet's metric values in Markdown. Organisation records may link to the relevant account row or source while retaining narrative context and the live workstream table.
-
 ## Example data
 
 A clearly fictional connected example is included:
@@ -93,10 +73,9 @@ The Dell Computers scenario and John Dell are fictional training examples. They 
 1. Open this folder as an Obsidian vault.
 2. Enable the **Templates** core plugin.
 3. Set **Template folder location** to `Templates`.
-4. Create the Google Sheet and record its link in `CSM Scorecard.md` and `System/connections.md`.
-5. Create customer records from `Templates/Organisation.md`.
-6. Add People and Meetings only when they provide useful maintained context.
-7. Keep external sends and changes to official systems behind explicit approval.
+4. Create customer records from `Templates/Organisation.md`.
+5. Add People and Meetings only when they provide useful maintained context.
+6. Keep external sends and changes to official systems behind explicit approval.
 
 ## Privacy and safety
 

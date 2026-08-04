@@ -13,8 +13,7 @@ This is the live source and connection registry for the Insider CSM Work OS. Rec
 
 | Connection or source | Purpose | Account or workspace | Status | Approved route | Allowed without confirmation | Confirm before | Last verified | Notes |
 |---|---|---|---|---|---|---|---|---|
-| CSM Scorecard Google Sheet | Canonical structured OKRs, KPIs, account roll-up and advocacy targets | Verify exact Insider Workspace account | Setup required | Account-scoped Google Workspace route | Read after a successful live test | Writing values or formulas; sharing; permission changes; deleting tabs or files |  | Add the exact Sheet ID and link after creation; see [[CSM Scorecard]] |
-| Official commercial system | Contractual, commercial and renewal authority | Verify exact workspace | Setup required | Approved company route | Read after approval and a live test | Any write or lifecycle change |  | The Sheet may summarise but must not silently replace this authority |
+| Official commercial system | Contractual, commercial and renewal authority | Verify exact workspace | Setup required | Approved company route | Read after approval and a live test | Any write or lifecycle change |  | The vault may link to this source but must not silently replace it |
 | Slack | Decisions, commitments and discussion evidence | Verify exact Insider workspace | Setup required | Approved Slack route | Search and read after a successful live test | Sending, editing, scheduling or configuration changes |  | Preserve stable message references |
 | Google Calendar | Meeting evidence and preparation | Verify exact Insider account | Setup required | Approved account-scoped route | Search and read after a successful live test | Creating, moving, responding to or cancelling events |  | Preserve timezone and response state |
 | Gmail | Email evidence and drafting | Verify exact Insider account | Setup required | Approved account-scoped route | Search, read and draft after a successful live test | Sending, deleting, moving or changing labels unless separately approved |  | Keep source messages as evidence |
@@ -28,4 +27,3 @@ This is the live source and connection registry for the Insider CSM Work OS. Rec
 4. Confirm external sends, deletes, shares, permission changes and writes.
 5. Never store passwords, API keys, tokens, cookies, OAuth codes or secret-bearing URLs.
 6. Update `Last verified` only after a real live test.
-7. Keep metric definitions and source ownership in the Google Sheet's `Definitions & Sources` tab.

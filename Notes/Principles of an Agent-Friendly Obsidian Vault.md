@@ -43,7 +43,6 @@ The first screen should explain what the record is, why it matters and its curre
 | Stakeholder identity, role and working context | People record |
 | Meeting event, attendees, notes and decisions | Meeting record |
 | Reusable research or decision evidence | Note file |
-| Structured OKRs, KPIs and advocacy targets | Linked Google Sheet described in `CSM Scorecard.md` |
 | Shared or leadership work not owned elsewhere | `Tasks.md` |
 
 Other files should link to the owner rather than copying its current value.
