@@ -6,8 +6,7 @@ topics:
   - markdown
 organisations: []
 people: []
-created: "2026-08-02"
-updated: "2026-08-03"
+date: "2026-08-02"
 ---
 
 # Principles of an Agent-Friendly Obsidian Vault
@@ -41,9 +40,9 @@ The first screen should explain what the record is, why it matters and its curre
 | Customer identity, health context and strategy | Organisation record |
 | Customer workstreams and battle plans | Workstream table inside the Organisation record |
 | Stakeholder identity, role and working context | People record |
-| Meeting event, attendees, notes and decisions | Meeting record |
+| Meeting event, attendees and notes | Meeting record |
 | Reusable research or decision evidence | Note file |
-| Shared or leadership work not owned elsewhere | `Tasks.md` |
+| CSM tasks, shared or leadership commitments, and waiting items | `Tasks.md` |
 
 Other files should link to the owner rather than copying its current value.
 

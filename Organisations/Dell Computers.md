@@ -4,13 +4,13 @@ status: active
 tier: example-tier
 csm: Example CSM
 cs_lead: Example CS Lead
+account_director: Example Account Director
+mrr: 10000
 health: amber
 renewal_date: "2026-12-31"
 priority: Prove value from the first personalisation use case.
 people:
   - "[[John Dell]]"
-last_reviewed: "2026-01-15"
-updated: "2026-01-15"
 ---
 
 # Dell Computers
@@ -20,21 +20,21 @@ updated: "2026-01-15"
 
 ## Executive snapshot
 
-Dell Computers is preparing its first personalisation use case. The immediate CSM priority is to agree the success measure, confirm ownership and establish a credible launch plan.
-
-## Health and renewal
-
-- **Health:** Amber because the use case and measurement plan are not yet agreed.
-- **Renewal position:** Fictional date used only to demonstrate the field.
-- **Commercial context:** No real commercial information.
-- **Principal risk:** Activity begins without a customer-approved value measure.
-- **Leadership support needed:** None in this example.
+Dell Computers is preparing its first personalisation use case. The immediate CSM priority is to agree the success measure, confirm ownership and establish a credible launch plan. The MRR value is fictional and shown only to demonstrate the frontmatter field.
 
 ## Customer objectives and success measures
 
-| Customer objective | Measure or evidence | Baseline | Target | Current | Review date |
+| Customer objective | Measure | Baseline | Target | Current | Review date |
 |---|---|---:|---:|---:|---|
 | Improve discovery of relevant products | Customer-approved engagement measure | To be agreed | To be agreed | Not assessable | 2026-02-15 |
+
+## Technology stack
+
+| Category | Tool or platform | Use | Status | Notes |
+|---|---|---|---|---|
+| Commerce platform | Example commerce platform | Storefront and product catalogue | To be confirmed | Fictional placeholder |
+| Analytics | Example analytics platform | Baseline and outcome measurement | Measurement definition needed | Fictional placeholder |
+| Customer data | Example data source | Audience and product attributes | Discovery required | Fictional placeholder |
 
 ## Workstreams and battle plans
 
@@ -42,14 +42,6 @@ Dell Computers is preparing its first personalisation use case. The immediate CS
 |---|---|---|---|---|---|
 | First personalisation use case | Launch one measurable use case with an agreed owner, baseline and target | Active | Example CSM with [[John Dell]] | Send measurement proposal by 2026-01-22 | Baseline and customer target are not confirmed |
 
-## Change since last review
-
-- 2026-01-15: Fictional customer-success check-in completed and the measurement gap identified.
-
 ## Stakeholders
 
 - [[John Dell]] is the fictional day-to-day customer sponsor.
-
-## Evidence
-
-- [[2026-01-15 Dell Computers Customer Success Check-in Meeting|Dell Computers Customer Success Check-in Meeting]]

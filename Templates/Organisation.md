@@ -4,12 +4,12 @@ status: active
 tier:
 csm:
 cs_lead:
+account_director:
+mrr:
 health:
 renewal_date:
 priority:
 people: []
-last_reviewed:
-updated: "{{date:YYYY-MM-DD}}"
 ---
 
 # {{title}}
@@ -18,32 +18,21 @@ updated: "{{date:YYYY-MM-DD}}"
 
 What is the relationship, current position and why does it matter?
 
-## Health and renewal
-
-- **Health:**
-- **Renewal position:**
-- **Commercial context:**
-- **Principal risk:**
-- **Leadership support needed:**
-
 ## Customer objectives and success measures
 
-| Customer objective | Measure or evidence | Baseline | Target | Current | Review date |
+| Customer objective | Measure | Baseline | Target | Current | Review date |
 |---|---|---:|---:|---:|---|
+
+## Technology stack
+
+| Category | Tool or platform | Use | Status | Notes |
+|---|---|---|---|---|
 
 ## Workstreams and battle plans
 
 | Workstream or battle plan | Outcome | Status | Owner | Next milestone and date | Blocker |
 |---|---|---|---|---|---|
 
-Keep each active customer initiative as one row. Put deeper evidence in Meetings or Notes and link it from the row when useful.
-
-## Change since last review
-
-Add only dated material changes.
+Keep each active customer initiative as one row. Put deeper context in Meetings or Notes and link it from the row when useful.
 
 ## Stakeholders
-
-## Evidence
-
-Link Meetings, Notes and authoritative external sources.

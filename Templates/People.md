@@ -2,8 +2,10 @@
 type: people
 status: active
 role:
+linkedin:
+email:
 organisations: []
-updated: "{{date:YYYY-MM-DD}}"
+date: "{{date:YYYY-MM-DD}}"
 ---
 
 # {{title}}

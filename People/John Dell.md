@@ -2,9 +2,11 @@
 type: people
 status: active
 role: Digital Experience Lead
+linkedin:
+email:
 organisations:
   - "[[Dell Computers]]"
-updated: "2026-01-15"
+date: "2026-01-15"
 ---
 
 # John Dell

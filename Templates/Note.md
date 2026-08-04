@@ -1,10 +1,9 @@
 ---
 type: note
+date: "{{date:YYYY-MM-DD}}"
 organisations: []
 people: []
 topics: []
-created: "{{date:YYYY-MM-DD}}"
-updated: "{{date:YYYY-MM-DD}}"
 ---
 
 # {{title}}

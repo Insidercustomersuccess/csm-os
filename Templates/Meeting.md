@@ -3,8 +3,6 @@ type: meeting
 date: "{{date:YYYY-MM-DD}}"
 organisations: []
 people: []
-created: "{{date:YYYY-MM-DD}}"
-updated: "{{date:YYYY-MM-DD}}"
 ---
 
 # {{title}}
@@ -17,17 +15,10 @@ updated: "{{date:YYYY-MM-DD}}"
 
 ## Notes
 
-## Decisions
-
-## Commitments
-
-| Commitment | Owner | Date | Canonical destination |
-|---|---|---|---|
-
 ## Durable account changes
 
 Identify supported changes that should be reconciled into an Organisation or People record. Preserve uncertainty.
 
 ## Follow-up
 
-Add a task to [[Tasks]] only when it is material and not already owned by another approved system.
+Add resulting CSM tasks to [[Tasks]]. Denote tasks waiting on another person with `waiting`.

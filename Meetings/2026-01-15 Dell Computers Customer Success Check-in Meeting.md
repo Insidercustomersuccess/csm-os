@@ -5,8 +5,6 @@ organisations:
   - "[[Dell Computers]]"
 people:
   - "[[John Dell]]"
-created: "2026-01-15"
-updated: "2026-01-15"
 ---
 
 # Dell Computers Customer Success Check-in Meeting
@@ -33,19 +31,7 @@ Review progress, risks and next steps for [[Dell Computers]] and its first measu
 
 ## Notes
 
-John supported starting with one use case. The customer has not yet approved the baseline or target, so performance remains not assessable.
-
-## Decisions
-
-- Begin with one measurable personalisation use case.
-- Keep the baseline and target as open evidence gaps until the customer confirms them.
-
-## Commitments
-
-| Commitment | Owner | Date | Canonical destination |
-|---|---|---|---|
-| Send a proposed measurement definition | Example CSM | 2026-01-22 | [[Dell Computers]] |
-| Confirm the implementation owner | [[John Dell]] | 2026-01-29 | [[Dell Computers]] |
+John supported starting with one measurable personalisation use case. The customer has not yet approved the baseline or target, so performance remains not assessable. Example CSM will send a proposed measurement definition by 2026-01-22. John will confirm the implementation owner by 2026-01-29.
 
 ## Durable account changes
 
@@ -55,4 +41,4 @@ John supported starting with one use case. The customer has not yet approved the
 
 ## Follow-up
 
-The material next move is recorded in [[Dell Computers]]. Add it to [[Tasks]] only if this vault is chosen as its canonical task owner.
+Record the resulting CSM tasks in [[Tasks]]. Denote anything waiting on [[John Dell]] with `waiting`.

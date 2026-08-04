@@ -15,9 +15,9 @@ Do not copy a value into several places. Link to the canonical source instead.
 |---|---|
 | `Organisations/` | One canonical working record per customer, including its current workstreams and battle plans |
 | `People/` | Customer stakeholders and relevant working relationships |
-| `Meetings/` | Meeting evidence, decisions and commitments |
+| `Meetings/` | Meeting context, notes and follow-up |
 | `Notes/` | Playbooks, product knowledge, research, decisions and reusable context |
-| `Tasks.md` | Shared or leadership commitments not already owned by another system |
+| `Tasks.md` | All CSM tasks, shared or leadership commitments, and items waiting on other people |
 | `System/connections.md` | Live connection and source registry, without secrets |
 | `Templates/` | The approved starting shape for each record type |
 
@@ -32,7 +32,7 @@ There is deliberately no `Projects/` folder. Current customer workstreams and ba
 | What happened in a meeting | Meeting record |
 | Reusable knowledge or evidence | Note file |
 | Commercial or contractual facts | The approved official company system |
-| Shared leadership commitment not owned elsewhere | `Tasks.md` |
+| CSM task, shared or leadership commitment, or waiting item | `Tasks.md` |
 | Connection route and permission boundary | `System/connections.md` |
 
 ## Core workflow
@@ -40,10 +40,10 @@ There is deliberately no `Projects/` folder. Current customer workstreams and ba
 ### After a customer meeting
 
 1. Create a Meeting from `Templates/Meeting.md`.
-2. Preserve decisions, commitments and uncertainty as evidence.
+2. Preserve useful context, open questions and uncertainty in the notes.
 3. Update the Organisation only with durable, supported changes to current state, workstreams or battle plans.
 4. Update relevant People records when stakeholder context changed.
-5. Add a task only when it is material and not already owned elsewhere.
+5. Add resulting CSM tasks to `Tasks.md`; denote dependencies on other people with `waiting`.
 
 ### Weekly CSM review
 
