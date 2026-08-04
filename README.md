@@ -76,6 +76,17 @@ The Google Sheet should contain these tabs:
 
 Do not duplicate the Sheet's metric values in Markdown. Organisation notes may link to the relevant account row or source, while retaining the narrative battle plan.
 
+## Example data
+
+A clearly fictional connected example is included:
+
+- [[Example Customer]]
+- [[Jamie Customer]]
+- [[Example Customer Adoption Plan]]
+- [[2026-01-15 Example Customer Success Review|Example Customer Success Review]]
+
+Use it to understand the relationships, then replace or delete all four records before adding real customer data.
+
 ## First use
 
 1. Open this folder as an Obsidian vault.
