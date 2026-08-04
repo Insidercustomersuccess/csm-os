@@ -24,23 +24,31 @@ Dell Computers is preparing its first personalisation use case. The immediate CS
 
 ## Customer objectives and success measures
 
-| Customer objective | Measure | Baseline | Target | Current | Review date |
-|---|---|---:|---:|---:|---|
-| Improve discovery of relevant products | Customer-approved engagement measure | To be agreed | To be agreed | Not assessable | 2026-02-15 |
+| Objective | Measure | Current status |
+|---|---|---|
+| Improve discovery of relevant products | Customer-approved engagement measure | Not assessable |
 
 ## Technology stack
 
-| Category | Tool or platform | Use | Status | Notes |
-|---|---|---|---|---|
-| Commerce platform | Example commerce platform | Storefront and product catalogue | To be confirmed | Fictional placeholder |
-| Analytics | Example analytics platform | Baseline and outcome measurement | Measurement definition needed | Fictional placeholder |
-| Customer data | Example data source | Audience and product attributes | Discovery required | Fictional placeholder |
+| Tool | Notes |
+|---|---|
+| Data warehouse | To be confirmed |
+| CDP | To be confirmed |
+| Google Analytics | Analytics tool of choice |
+| Onsite personalisation | To be confirmed |
+| Email | To be confirmed |
+| Chatbot | To be confirmed |
+| Mobile app | To be confirmed |
+| Search provider | To be confirmed |
+| SMS | To be confirmed |
+| WhatsApp | To be confirmed |
+| RCS | To be confirmed |
 
 ## Workstreams and battle plans
 
-| Workstream or battle plan | Outcome | Status | Owner | Next milestone and date | Blocker |
-|---|---|---|---|---|---|
-| First personalisation use case | Launch one measurable use case with an agreed owner, baseline and target | Active | Example CSM with [[John Dell]] | Send measurement proposal by 2026-01-22 | Baseline and customer target are not confirmed |
+| Workstream | Battle plan | Outcome | Current status |
+|---|---|---|---|
+| First personalisation use case | Agree the use case, customer owner, measurement baseline and target before launch | Launch one measurable use case | Active |
 
 ## Stakeholders
 

@@ -51,8 +51,8 @@ Other files should link to the owner rather than copying its current value.
 Use one compact table in each Organisation:
 
 ```markdown
-| Workstream or battle plan | Outcome | Status | Owner | Next milestone and date | Blocker |
-|---|---|---|---|---|---|
+| Workstream | Battle plan | Outcome | Current status |
+|---|---|---|---|
 ```
 
 Create one row per active initiative. Update that row when the current position changes. Put meeting evidence and deeper research in linked Meetings or Notes.
