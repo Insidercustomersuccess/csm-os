@@ -1,10 +1,8 @@
 # Welcome to the CSM OS
 
-[Watch the Work OS video tutorial](https://www.youtube.com/watch?v=EcAz6lklq8s&t)
-
 This is a simple Obsidian operating system for Customer Success teams.
 
-Getting started with Obsidian and building an agent-friendly vault can be difficult, so this repository provides a consistent starting point. It follows the [[Principles of an Agent-Friendly Obsidian Vault]] while adapting the original [Work OS](https://github.com/jonathanlewell/work-os) for CSM work.
+Getting started with Obsidian and building an agent-friendly vault can be difficult, so this repository provides a consistent starting point. It follows the [[Principles of an Agent-Friendly Obsidian Vault]].
 
 The idea is to keep useful customer context in linked Markdown files. Those links give people and AI agents such as Claude or ChatGPT enough structured context to understand accounts, stakeholders, meetings, workstreams and tasks.
 
